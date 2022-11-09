@@ -1,364 +1,545 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>complete responsive app landing page website design tutorial</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Funel - Agancy landing page</title>
 
-    <!-- font awesome cdn link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <!-- 
+    - favicon link
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
 
-    <!-- custom css file link  -->
-    <link rel="stylesheet" href="css/style.css">
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
 
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
-<body>
-    
-<!-- header section starts  -->
 
-<header>
+<body id="top">
 
-    <a href="#" class="logo"><span>best</span>App</a>
+  <!-- 
+    - #HEADER
+  -->
 
-    <input type="checkbox" id="menu-bar">
-    <label for="menu-bar" class="fas fa-bars"></label>
+  <header>
 
-    <nav class="navbar">
-        <a href="#home">home</a>
-        <a href="#features">features</a>
-        <a href="#about">about</a>
-        <a href="#review">review</a>
-        <a href="#pricing">pricing</a>
-        <a href="#contact">contact</a>
-    </nav>
+    <div class="container">
 
-</header>
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.png" alt="Funel logo">
+      </a>
 
-<!-- header section ends -->
+      <div class="navbar-wrapper">
 
-<!-- home section starts  -->
+        <button class="navbar-menu-btn" data-navbar-toggle-btn>
+          <ion-icon name="menu-outline"></ion-icon>
+        </button>
 
-<section class="home" id="home">
+        <nav class="navbar" data-navbar>
 
-    <div class="content">
-        <h3>best mobile app <span>showcase</span></h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus suscipit porro nam libero natus error consequatur sed repudiandae eos quo?</p>
-        <a href="#" class="btn">download now</a>
-    </div>
+          <ul class="navbar-list">
 
-    <div class="image">
-        <img src="images/home-img.png" alt="">
-    </div>
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
 
-</section>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">What we do</a>
+            </li>
 
-<!-- home section ends -->
+            <li class="nav-item">
+              <a href="#features" class="nav-link">Why us?</a>
+            </li>
 
-<!-- features section starts  -->
+            <li class="nav-item">
+              <a href="#" class="nav-link">Our work</a>
+            </li>
 
-<section class="features" id="features">
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
 
-    <h1 class="heading"> app features </h1>
+          </ul>
 
-    <div class="box-container">
+          <button class="btn btn-primary">Get in touch</button>
 
-        <div class="box">
-            <img src="images/f-icon1.png" alt="">
-            <h3>amazing UI design</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam minus recusandae autem, repellendus fugit quaerat provident voluptatum non officiis ratione.</p>
-            <a href="#" class="btn">read more</a>
-        </div>
+        </nav>
 
-        <div class="box">
-            <img src="images/f-icon2.png" alt="">
-            <h3>soft and smooth animations</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam minus recusandae autem, repellendus fugit quaerat provident voluptatum non officiis ratione.</p>
-            <a href="#" class="btn">read more</a>
-        </div>
-
-        <div class="box">
-            <img src="images/f-icon3.png" alt="">
-            <h3>freindly interactions</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam minus recusandae autem, repellendus fugit quaerat provident voluptatum non officiis ratione.</p>
-            <a href="#" class="btn">read more</a>
-        </div>
+      </div>
 
     </div>
 
-</section>
+  </header>
 
-<!-- features section ends -->
 
-<!-- about section starts  -->
 
-<section class="about" id="about">
 
-    <h1 class="heading"> about the app </h1>
 
-    <div class="column">
+  <main>
 
-        <div class="image">
-            <img src="images/about-img.png" alt="">
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Your full-funnel growth agency</h1>
+
+            <p class="hero-text">
+              Capture and retrieve your lists across devices to help you stay organized at work, home, and on the go.
+            </p>
+
+            <button class="btn btn-primary">Get started</button>
+
+          </div>
+
+          <div class="hero-banner"></div>
+
         </div>
 
-        <div class="content">
-            <h3>Easy And Perfect Solution For Your Business App</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla placeat deserunt saepe repudiandae veniam soluta minima dolor hic aperiam iure.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, quaerat. Dolorem ratione saepe magni quo inventore porro ab voluptates eos, nam eius provident accusantium, quia similique est, repellendus et reiciendis.</p>
-            <div class="buttons">
-                <a href="#" class="btn"> <i class="fab fa-apple"></i> app store </a>
-                <a href="#" class="btn"> <i class="fab fa-google-play"></i> google-play </a>
-            </div>
-        </div>
+        <img src="./assets/images/bg.png" alt="shape" class="shape-content">
+      </section>
 
-    </div>
 
-</section>
 
-<!-- about section ends -->
 
-<!-- newsletter  -->
 
-<div class="newsletter">
+      <!-- 
+        - #ABOUT
+      -->
 
-    <h3>Subscribe For New Features</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus sed aliquam quibusdam neque magni magnam est laborum doloribus, facere dolores.</p>
-    <form action="">
-        <input type="email" placeholder="enter your email">
-        <input type="submit" value="Subscribe">
-    </form>
+      <section class="about" id="about">
+        <div class="container">
 
-</div>
+          <div class="about-top">
 
-<!-- review section starts  -->
+            <h2 class="h2 section-title">What we do</h2>
 
-<section class="review" id="review">
+            <p class="section-text">
+              Each time a digital asset is purchased or sold, Sequoir donates a percentage of the fees back into the
+              development of
+              the asset through its charitable foundation.
+            </p>
 
-    <h1 class="heading"> people's review </h1>
+            <ul class="about-list">
 
-    <div class="box-container">
+              <li>
+                <div class="about-card">
 
-        <div class="box">
-            <i class="fas fa-quote-right"></i>
-            <div class="user">
-                <img src="images/pic1.png" alt="">
-                <h3>john deo</h3>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
+                  <div class="card-icon">
+                    <ion-icon name="briefcase-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Paid Search and Social Management</h3>
+
+                  <p class="card-text">
+                    Each time a digital asset is purchased or sold, Sequoir donates a percentage of the fees back
+                  </p>
+
                 </div>
-                <div class="comment">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus et, perspiciatis nisi tempore aspernatur accusantium sed distinctio facilis aperiam laborum autem earum repellat, commodi eum. Ullam cupiditate expedita officiis obcaecati?
+              </li>
+
+              <li>
+                <div class="about-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="chatbubbles-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Direct Response Content</h3>
+
+                  <p class="card-text">
+                    Each time a digital asset is purchased or sold, Sequoir donates a percentage of the fees back
+                  </p>
+
                 </div>
-            </div>
-        </div>
+              </li>
 
-        <div class="box">
-            <i class="fas fa-quote-right"></i>
-            <div class="user">
-                <img src="images/pic2.png" alt="">
-                <h3>john deo</h3>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
+              <li>
+                <div class="about-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="rocket-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">CRO and Retention Optimizations</h3>
+
+                  <p class="card-text">
+                    Each time a digital asset is purchased or sold, Sequoir donates a percentage of the fees back
+                  </p>
+
                 </div>
-                <div class="comment">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus et, perspiciatis nisi tempore aspernatur accusantium sed distinctio facilis aperiam laborum autem earum repellat, commodi eum. Ullam cupiditate expedita officiis obcaecati?
-                </div>
-            </div>
-        </div>
+              </li>
 
-        <div class="box">
-            <i class="fas fa-quote-right"></i>
-            <div class="user">
-                <img src="images/pic3.png" alt="">
-                <h3>john deo</h3>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="far fa-star"></i>
-                </div>
-                <div class="comment">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus et, perspiciatis nisi tempore aspernatur accusantium sed distinctio facilis aperiam laborum autem earum repellat, commodi eum. Ullam cupiditate expedita officiis obcaecati?
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-</section>
-
-<!-- review section ends -->
-
-<!-- pricing section starts  -->
-
-<section class="pricing" id="pricing">
-
-    <h1 class="heading"> Our Pricing Plans </h1>
-
-    <div class="box-container">
-
-        <div class="box">
-            <h3 class="title">basic</h3>
-            <div class="price">$10<span>/monthly</span></div>
-            <ul>
-                <li> <i class="fas fa-check"></i> 1000+ downloads </li>
-                <li> <i class="fas fa-check"></i> No transaction fees </li>
-                <li> <i class="fas fa-times"></i> unlimited storage </li>
-                <li> <i class="fas fa-times"></i> 5 downloads </li>
             </ul>
-            <a href="#" class="btn">check out</a>
+
+          </div>
+
+          <div class="about-bottom">
+
+            <figure class="about-bottom-banner">
+              <img src="./assets/images/about-banner.png" alt="about banner" class="about-banner">
+            </figure>
+
+            <div class="about-bottom-content">
+
+              <h2 class="h2 section-title">We’re obsessed with growth</h2>
+
+              <p class="section-text">
+                Each time a digital asset is purchased or sold, Sequoir donates a percentage of the fees back into the
+                development of
+                the asset through its charitable foundation.
+              </p>
+
+              <button class="btn btn-secondary">Sign Up For Free</button>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURES
+      -->
+
+      <section class="features" id="features">
+        <div class="container">
+
+          <h2 class="h2 section-title">Our team is made up of all different backgrounds from all over the world.</h2>
+
+          <p class="section-text">
+            Each time a digital asset is purchased or sold, Sequoir donates a percentage of the fees back into the
+            development of
+            the asset through its charitable foundation.
+          </p>
+
+          <ul class="features-list">
+
+            <li class="features-item">
+
+              <figure class="features-item-banner">
+                <img src="./assets/images/feature-1.png" alt="feature banner">
+              </figure>
+
+              <div class="feature-item-content">
+                <h3 class="h2 item-title">Cover your everyday expenses</h3>
+
+                <p class="item-text">
+                  Inspiration comes in many ways and you like to save everything from. sed do eiusmod tempor incididunt
+                  ut labore et
+                  dolore magna aliqua.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="features-item">
+
+              <figure class="features-item-banner">
+                <img src="./assets/images/feature-2.png" alt="feature banner">
+              </figure>
+
+              <div class="feature-item-content">
+                <h3 class="h2 item-title">We offer low fees that are transparent</h3>
+
+                <p class="item-text">
+                  Each time a digital asset is purchased or sold, Sequoir donates a percentage of the fees back into the
+                  development of
+                  the asset through its charitable foundation.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="cta">
+        <div class="container">
+
+          <div class="cta-card">
+
+            <h3 class="cta-title">Try for 7 days free</h3>
+
+            <p class="cta-text">
+              Each time a digital asset is purchased or sold, Sequoir donates a percentage of the fees back.
+            </p>
+
+            <form action="" class="cta-form">
+
+              <input type="email" name="email" placeholder="Your email address">
+
+              <button type="submit" class="btn btn-secondary">Try It Now</button>
+
+            </form>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="contact" id="contact">
+        <div class="container">
+
+          <div class="contact-content">
+            <h2 class="h2 contact-title">Let’s scale your brand, together</h2>
+
+            <figure class="contact-banner">
+              <img src="./assets/images/contact.png" alt="contact banner">
+            </figure>
+          </div>
+
+          <form action="" class="contact-form">
+
+            <div class="input-wrapper">
+              <label for="name" class="input-label">Name *</label>
+
+              <input type="text" name="name" id="name" required placeholder="Type Name" class="input-field">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="phone" class="input-label">Phone</label>
+
+              <input type="tel" name="phone" id="phone" placeholder="Type Phone Number" class="input-field">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="email" class="input-label">Email Address *</label>
+
+              <input type="email" name="email" id="email" required placeholder="Type Email Address" class="input-field">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="message" class="input-label">How can we help? *</label>
+
+              <textarea name="message" id="message" placeholder="Type Description" required
+                class="input-field"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Send Message</button>
+
+          </form>
+
+        </div>
+      </section>
+
+    </article>
+
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer>
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.png" alt="Funel logo">
+          </a>
+
+          <p class="footer-text">Follow us on</p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="https://github.com/codewithsadee" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://instagram.com/codewithsadee" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://youtube.com/c/codewithsadee" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
         </div>
 
-        <div class="box">
-            <h3 class="title">standard</h3>
-            <div class="price">$15<span>/monthly</span></div>
-            <ul>
-                <li> <i class="fas fa-check"></i> 1000+ downloads </li>
-                <li> <i class="fas fa-check"></i> No transaction fees </li>
-                <li> <i class="fas fa-check"></i> unlimited storage </li>
-                <li> <i class="fas fa-times"></i> 5 downloads </li>
-            </ul>
-            <a href="#" class="btn">check out</a>
+        <div class="footer-link-box">
+
+          <ul class="footer-link-list">
+
+            <li>
+              <h3 class="h4 link-title">Company</h3>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">About Us</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Features</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Pricing</a>
+            </li>
+
+          </ul>
+
+          <ul class="footer-link-list">
+
+            <li>
+              <h3 class="h4 link-title">Products</h3>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Blog</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Help Center</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Contact</a>
+            </li>
+
+          </ul>
+
+          <ul class="footer-link-list">
+
+            <li>
+              <h3 class="h4 link-title">Resources</h3>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">FAQ’S</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Testimonial</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Terms & Conditions</a>
+            </li>
+
+          </ul>
+
+          <ul class="footer-link-list">
+
+            <li>
+              <h3 class="h4 link-title">Relevent</h3>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Why</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Products</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Customers</a>
+            </li>
+
+          </ul>
+
         </div>
 
-        <div class="box">
-            <h3 class="title">premium</h3>
-            <div class="price">$25<span>/monthly</span></div>
-            <ul>
-                <li> <i class="fas fa-check"></i> 1000+ downloads </li>
-                <li> <i class="fas fa-check"></i> No transaction fees </li>
-                <li> <i class="fas fa-check"></i> unlimited storage </li>
-                <li> <i class="fas fa-check"></i> 5 downloads </li>
-            </ul>
-            <a href="#" class="btn">check out</a>
-        </div>
-
+      </div>
     </div>
 
-</section>
-
-<!-- pricing section ends -->
-
-<!-- contact section starts  -->
-
-<section class="contact" id="contact">
-
-    <div class="image">
-        <img src="images/contact-img.png" alt="">
+    <div class="footer-bottom">
+      <p class="copyright">
+        &copy; 2022 <a href="#">@Ahmedsanad</a> All right reserved
+      </p>
     </div>
 
-    <form action="">
-
-        <h1 class="heading">contact us</h1>
-
-        <div class="inputBox">
-            <input type="text" required>
-            <label>name</label>
-        </div>
-
-        <div class="inputBox">
-            <input type="email" required>
-            <label>email</label>
-        </div>
-
-        <div class="inputBox">
-            <input type="number" required>
-            <label>phone</label>
-        </div>
-
-        <div class="inputBox">
-            <textarea required name="" id="" cols="30" rows="10"></textarea>
-            <label>message</label>
-        </div>
-
-        <input type="submit" class="btn" value="send message">
-
-    </form>
-
-</section>
-
-<!-- contact section edns -->
-
-<!-- footer section starts  -->
-
-<div class="footer">
-
-    <div class="box-container">
-
-        <div class="box">
-            <h3>about us</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet pariatur rerum consectetur architecto ad tempora blanditiis quo aliquid inventore a.</p>
-        </div>
-
-        <div class="box">
-            <h3>quick links</h3>
-            <a href="#">home</a>
-            <a href="#">features</a>
-            <a href="#">about</a>
-            <a href="#">review</a>
-            <a href="#">pricing</a>
-            <a href="#">contact</a>
-        </div>
-
-        <div class="box">
-            <h3>follow us</h3>
-            <a href="#">facebook</a>
-            <a href="#">instagram</a>
-            <a href="#">pinterest</a>
-            <a href="#">twitter</a>
-        </div>
-
-        <div class="box">
-            <h3>contact info</h3>
-            <div class="info">
-                <i class="fas fa-phone"></i>
-                <p> +123-456-7890 <br> +111-2222-333 </p>
-            </div>
-            <div class="info">
-                <i class="fas fa-envelope"></i>
-                <p> example@gmail.com <br> example@gmail.com </p>
-            </div>
-            <div class="info">
-                <i class="fas fa-map-marker-alt"></i>
-                <p> mumbai, india - 400104 </p>
-            </div>
-        </div>
-
-    </div>
-
-    <h1 class="credit"> &copy; copyright @ 2021 by mr. web designer </h1>
-
-</div>
-
-<!-- footer section ends -->
+  </footer>
 
 
 
 
 
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top active" data-go-top>
+    <ion-icon name="chevron-up-outline"></ion-icon>
+  </a>
 
 
 
 
 
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
 
-
-
-
-
-
-
-
-
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
+
 </html>
